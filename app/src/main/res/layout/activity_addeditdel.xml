@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Addeditdel">
+
+    <Button
+        android:id="@+id/btncreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#79a209df"
+        android:text="Create"
+        android:textColor="#cccccc" />
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncreate"
+        android:layout_marginTop="30dp"
+        android:background="#79a209df"
+        android:text="Edit"
+        android:textColor="#cccccc" />
+
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnedit"
+        android:layout_marginTop="30dp"
+        android:background="#79a209df"
+        android:text="Delete"
+        android:textColor="#cccccc" />
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".Create">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text="Your Details"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:backgroundTint="#ffff"
+        android:hint="   Enter Your Name"
+        android:inputType="textPersonName"
+        android:textColor="#271C1C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:backgroundTint="#ffff"
+        android:hint="   Department"
+        android:inputType="textPersonName"
+        android:textColor="#cccccc"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/quali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dept"
+        android:backgroundTint="#ffff"
+        android:hint="   Qualification"
+        android:inputType="textPersonName"
+        android:textColor="#cccccc"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/desig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quali"
+        android:backgroundTint="#ffff"
+        android:hint="   Designation"
+        android:inputType="textPersonName"
+        android:textColor="#cccccc"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desig"
+        android:backgroundTint="#ffff"
+        android:hint="   Phone Number"
+        android:inputType="textPersonName"
+        android:textColor="#cccccc"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:backgroundTint="#ffff"
+        android:hint="   Mail ID"
+        android:inputType="textPersonName"
+        android:textColor="#cccccc"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail"
+        android:layout_marginTop="30dp"
+        android:background="#79a209df"
+        android:text="ADD"
+        android:textColor="#cccccc" />
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnadd"
+        android:layout_marginTop="30dp"
+        android:background="#79a209df"
+        android:text="Cancel"
+        android:textColor="#cccccc" />
+
+
+
+</RelativeLayout>
