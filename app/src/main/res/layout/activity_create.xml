@@ -7,14 +7,14 @@
     android:background="@color/colorAccent"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="40dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
     tools:context=".Create">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:text="Your Details"
         android:textColor="#ffff"
@@ -92,8 +92,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/mail"
-        android:layout_marginTop="30dp"
         android:background="#79a209df"
+        android:layout_marginTop="10dp"
         android:text="ADD"
         android:textColor="#cccccc" />
 
@@ -102,8 +102,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnadd"
-        android:layout_marginTop="30dp"
         android:background="#79a209df"
+        android:layout_marginTop="10dp"
         android:text="Cancel"
         android:textColor="#cccccc" />
 
