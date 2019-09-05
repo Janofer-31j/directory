@@ -1,7 +1,15 @@
 package hp.janofer.jp.directory;
 
 public class Staff {
-    String department, designation, mail, name, phn, qualification;
+    String department, designation, mail, name, phn, qualification, id;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getDepartment() {
         return department;

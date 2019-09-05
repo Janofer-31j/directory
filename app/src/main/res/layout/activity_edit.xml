@@ -7,7 +7,7 @@
     android:background="@color/colorAccent"
     tools:context=".Edit">
 
-    <android.support.v7.widget.SearchView
+    <androidx.appcompat.widget.SearchView
         android:id="@+id/btnsearch"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
